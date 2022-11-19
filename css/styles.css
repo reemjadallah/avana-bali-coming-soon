@@ -2307,6 +2307,17 @@ progress {
   font-weight: 300;
 }
 
+@media screen and (max-width: 500px) {
+  .email-submit-button {
+    width: 20rem;
+  }
+
+  .flex-item {
+    padding: 5px;
+    width: 20rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
