@@ -4624,6 +4624,8 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: #000 !important;
+  opacity: 0.6;
 }
 
 .navbar>.container,
@@ -12413,6 +12415,7 @@ body.body-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-top: 210px;
   background-blend-mode: overlay;
 }
 
