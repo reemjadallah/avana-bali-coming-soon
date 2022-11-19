@@ -12424,10 +12424,19 @@ header.masthead {
 body.body-image {
   background-image: url("../assets/img/header-bg.jpg"), linear-gradient(rgba(26, 11, 6, 0.8), rgba(133, 100, 84, 0.4));
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
-  padding-top: 210px;
+  background-attachment: fixed;
   background-blend-mode: overlay;
+}
+
+@media screen and (max-width: 500px) {
+  body.body-image {
+    background-position: center;
+    background-size: 900px 100%;
+    background-attachment: scroll;
+    padding-top: 200px;
+  }
 }
 
 header.masthead .masthead-details {
